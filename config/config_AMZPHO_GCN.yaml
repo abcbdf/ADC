@@ -1,0 +1,23 @@
+dataset_name: 'Photo'
+architecture: 'GCN'
+test: True
+use_lcc: True
+num_development: 1500
+num_per_class: 20
+
+none:
+  hidden_layers: 1
+  hidden_units: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.03
+
+heat:
+  hidden_layers: 2
+  hidden_units: 64
+  dropout: 0.5
+  lr: 0.01
+  weight_decay: 0.08
+  t: 3.0
+  k:
+  eps: 0.0001

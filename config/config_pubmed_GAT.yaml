@@ -1,0 +1,13 @@
+dataset_name: 'Pubmed'
+architecture: 'GAT'
+test: True
+use_lcc: True
+num_development: 1500
+num_per_class: 20
+
+none:
+  hidden_layers: 2
+  hidden_units: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.03

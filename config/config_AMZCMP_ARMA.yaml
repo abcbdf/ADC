@@ -1,0 +1,25 @@
+dataset_name: 'Computers'
+architecture: 'ARMA'
+test: True
+use_lcc: True
+num_development: 1500
+num_per_class: 20
+
+none:
+  hidden_layers: 1
+  hidden_units: 16
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.01
+  stacks: 3
+
+heat:
+  hidden_layers: 1
+  hidden_units: 16
+  dropout: 0.5
+  lr: 0.01
+  weight_decay: 0.04
+  t: 5.0
+  k: 64
+  eps: 
+  stacks: 3

@@ -1,0 +1,23 @@
+dataset_name: 'CoauthorCS'
+architecture: 'GAT'
+test: True
+use_lcc: True
+num_development: 5000
+num_per_class: 20
+
+none:
+  hidden_layers: 2
+  hidden_units: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.00
+
+heat:
+  hidden_layers: 1
+  hidden_units: 64
+  dropout: 0.5
+  lr: 0.01
+  weight_decay: 0.03
+  t: 1.0
+  k: 
+  eps: 0.0005

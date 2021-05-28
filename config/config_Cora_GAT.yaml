@@ -1,0 +1,33 @@
+dataset_name: 'Cora'
+architecture: 'GAT'
+test: True
+use_lcc: True
+num_development: 1500
+num_per_class: 20
+
+none:
+  hidden_layers: 1
+  hidden_units: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.06
+
+heat:
+  hidden_layers: 1
+  hidden_units: 64
+  dropout: 0.5
+  lr: 0.01
+  weight_decay: 0.04
+  t: 1
+  k:
+  eps: 0.001
+
+ppr:
+  hidden_layers: 1
+  hidden_units: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.08
+  alpha: 0.10
+  k: 
+  eps: 0.005
