@@ -1,6 +1,3 @@
-__author__ = "Stefan Weißenberger and Johannes Klicpera"
-__license__ = "MIT"
-
 from typing import List
 
 import torch
@@ -8,9 +5,7 @@ from torch.nn import ModuleList, Dropout, ReLU, ELU
 from torch_geometric.nn import GCNConv, SGConv, GATConv, ARMAConv
 from torch_geometric.data import Data, InMemoryDataset
 from gcnplus import GCNPlusConv, GCNPlusPlusConv, GCNPlusRConv
-from gatplus import GATPlusConv
 from armaplus import ARMAPlusConv
-from TDConv import TDConv
 from args import get_citation_args
 
 class GCN(torch.nn.Module):

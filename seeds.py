@@ -1,6 +1,3 @@
-__author__ = "Stefan Weißenberger and Johannes Klicpera"
-__license__ = "MIT"
-
 test_seeds = [
     2406525885, 3164031153, 1454191016, 1583215992, 765984986,
     258270452, 3808600642, 292690791, 2492579272, 1660347731,

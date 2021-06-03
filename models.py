@@ -1,6 +1,3 @@
-__author__ = "Stefan Weißenberger and Johannes Klicpera"
-__license__ = "MIT"
-
 from typing import List
 
 import torch
