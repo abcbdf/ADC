@@ -3,8 +3,14 @@
 Reference implementation (example) of the model proposed in the paper:
 
 **[Adaptive Diffusion in Graph Neural Networks](https://proceedings.neurips.cc/paper/2021/hash/c42af2fa7356818e0389593714f59b52-Abstract.html)**   
-by Jialin Zhao, Yuxiao Dong, Ming Ding, Evgeny Kharlamov, Jie Tang
+by Jialin Zhao, Yuxiao Dong, Ming Ding, Evgeny Kharlamov, Jie Tang  
 Published at NeurIPS 2021.
+
+## Run the code
+This repository primarily contains a demonstration of enhancing a graph convolutional network (GCN) with graph diffusion convolution (GDC) in the notebook `gdc_demo.ipynb`.
+
+## Requirements
+The repository uses these packages:
 
 To run ADC:
 
